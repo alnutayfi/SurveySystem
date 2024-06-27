@@ -1,0 +1,210 @@
+[f76928c0-5df9-4ea6-8c66-163ff9b7d003] [] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+] 
+[Response : 
+]
+[0919653b-6b22-4b7a-8757-82b779c140fd] [index] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+] 
+[Response : 
+]
+[3278ab27-16b3-4e50-8742-46c55652e930] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+] 
+[Response : 
+]
+[912aec79-f641-4198-904b-d5f800064ee3] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:24:41 PM]  
+[Request : 
+{"surveyUrl":"hddd","domains":[{"domainName":"dddd","adminEmail":"dddd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[541e2d76-3ddd-42b2-a0f7-d211c75f0acf] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:24:48 PM]  
+[Request : 
+{"surveyUrl":"hddd","domains":[{"domainName":"dddd","adminEmail":"dddd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[c3bc00fa-432b-44f4-8a36-26f9159436af] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:25:00 PM]  
+[Request : 
+{"surveyUrl":"hddd","domains":[{"domainName":"dddd","adminEmail":"dddd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[091970ad-fdd9-4f7f-9526-61ff6b9c96a1] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:31:18 PM]  
+[Request : 
+{"surveyUrl":"hddd","domains":[{"domainName":"dddd","adminEmail":"dddd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[90699fa9-e1dd-4c73-a113-630d44aa832c] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:32:10 PM]  
+[Request : 
+{"surveyUrl":"hddd","domains":[{"domainName":"dddd","adminEmail":"abmalki17@gmail.com"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[d52857fa-c55c-4a42-b430-46233e3120d1] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:32:22 PM]  
+[Request : 
+{"surveyUrl":"hddd","domains":[{"domainName":"dddd","adminEmail":"abmalki17@gmail.com"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[cd5903e7-9f71-4b93-9fca-7b9354b751ba] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://www.google.com/sea","domains":[{"domainName":"dddd","adminEmail":"abmalki17@gmail.com"}]}] 
+[Response : 
+]
+[f8d59a84-634b-4f41-979d-90d69e126af7] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://www.google.com/sea","domains":[{"domainName":"dddd","adminEmail":"abmalki17@gmail.com"}]}] 
+[Response : 
+]
+[2dec8c2a-2310-415e-8533-551a50425f3b] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://www.google.com/sea","domains":[{"domainName":"dddd","adminEmail":"abmalki17@gmail.com"}]}] 
+[Response : 
+]
+[acb8155d-ecc2-4b50-96ff-6e28fcefbedf] [] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+] 
+[Response : 
+]
+[0b30807a-b30c-4f52-b32a-5139c8bbe9f4] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://www.google.com/sea","domains":[{"domainName":"dddd","adminEmail":"abmalki17@gmail.com"}]}] 
+[Response : 
+]
+[2e2e3b14-0bd9-4f94-bec1-d1ea37ea5448] [index] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+] 
+[Response : 
+]
+[e1bf8a2d-c14c-4ef1-9dda-fca6fe42f9fc] [bootstrap.bundle.min.js] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+] 
+[Response : 
+]
+[df0156d5-41c9-4844-9d1b-cd4e37345210] [favicon.ico] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+] 
+[Response : 
+]
+[e746740c-1961-41c9-bdd3-43b5a67e019c] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+] 
+[Response : 
+]
+[1e042e29-29d4-433a-b237-cc95c6d74f48] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://onboarding.brevo.com/account/register/verify","domains":[{"domainName":"ddddd","adminEmail":"abf@gmail.com"}]}] 
+[Response : 
+]
+[77d1bff0-b632-4e36-b8f4-63fcec25e00a] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://onboarding.brevo.com/account/register/verify","domains":[{"domainName":"ddddd","adminEmail":"abf@gmail.com"}]}] 
+[Response : 
+]
+[40ca3848-c4ca-4a97-b5e4-3210bcc6ac92] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://onboarding.brevo.com/account/register/verify","domains":[{"domainName":"ddddd","adminEmail":"abf@gmail.com"}]}] 
+[Response : 
+]
+[33ad106d-2de3-4fc4-bccf-22eab314435f] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://onboarding.brevo.com/account/register/verify","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+]
+[3d2f90d9-316e-4f36-8145-e6e1000de77b] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://onboarding.brevo.com/account/register/verify","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+]
+[b17351b5-8121-4710-84dc-ff9bde5ef588] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:39:01 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[45849a4d-bafa-4e94-87b7-63728ef048a5] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:39:06 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[a38a897e-0b2a-448f-b12b-5d148b51c3bd] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:39:40 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[e5ca7669-4fc8-431e-a11c-bbe84f27bd3c] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:39:53 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[f4f10bfa-8ff2-443d-a4a4-771555928a46] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:41:06 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[9cc7acea-d12a-4f74-a04f-e9558a56225c] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:41:14 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[8048b62e-97ea-4d95-93be-ffad6919ca6f] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:41:19 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[998ad369-57b4-444d-8472-eac1737e7976] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:42:00 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[4d96977c-094a-47a2-9996-11bc5ab348c6] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:42:10 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[368ef5bc-9c47-4575-95d7-f8d792139135] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:42:53 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[e49811b0-b080-4a26-aadc-71b8d010e596] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:42:56 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[d8aa3e88-a2e7-4dd4-92aa-48d4cf2e6961] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:44:13 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[138ef115-4552-4eec-a922-18f993cf8d84] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:44:18 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[3c56c242-ed35-4a05-a31a-73248f7ac12c] [create-survey] [400] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 8:46:22 PM]  
+[Request : 
+{"surveyUrl":"sfdf","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+{"error":"V004","message":"Invalid Survey Url"}]
+[e31daa8c-e3ec-4f6a-8a6b-3ad6c52b505b] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://forums.limesurvey.org/forum/can-i-do-this-with-limesurvey/108581-fake-url-in-browser","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+]
+[39488bf1-fedf-4329-9257-e37692d1845c] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://forums.limesurvey.org/forum/can-i-do-this-with-limesurvey/108581-fake-url-in-browser","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+]
+[ab8ae511-268b-434c-b153-8c17dba8deba] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://forums.limesurvey.org/forum/can-i-do-this-with-limesurvey/108581-fake-url-in-browser","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+]
+[acea5831-23fa-41fb-b997-600653793093] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://forums.limesurvey.org/forum/can-i-do-this-with-limesurvey/108581-fake-url-in-browser","domains":[{"domainName":"ddddd","adminEmail":"sdsdd"}]}] 
+[Response : 
+]
+[90e7c1d4-a37b-41b1-90f2-478923e93f65] [create-survey] [0] [21/12/1445 بعد الهجرة 3:00:00 AM] [21/12/1445 بعد الهجرة 3:00:00 AM]  
+[Request : 
+{"surveyUrl":"https://forums.limesurvey.org/forum/can-i-do-this-with-limesurvey/108581-fake-url-in-browser","domains":[{"domainName":"ddddd","adminEmail":"alnutayfi.90@gmail.com"}]}] 
+[Response : 
+]

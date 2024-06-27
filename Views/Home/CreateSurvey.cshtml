@@ -1,0 +1,196 @@
+@{
+    ViewBag.Title = "Create Survey";
+}
+
+<h2>Create Survey</h2>
+
+<form id="domainAdminForm" onsubmit="submitForm(event)">
+    <div>
+        <label for="surveyUrl">Survey URL</label>
+        <input type="text" id="surveyUrl" name="surveyUrl" required />
+    </div>
+    <div id="fieldsContainer"></div>
+    <button type="button" onclick="addFieldPair()">Add Domain</button>
+    <button type="submit">Submit</button>
+</form>
+
+
+@section Scripts {
+    <script>
+    function addFieldPair() {
+        const container = document.getElementById("fieldsContainer");
+        const pairDiv = document.createElement("div");
+        pairDiv.className = "field-pair";
+        pairDiv.innerHTML = `
+                <input type="text" name="domainName" placeholder="Domain Name" required />
+                <input type="text" name="adminEmail" placeholder="Admin Email" required />
+                <button type="button" onclick="removeFieldPair(this)">Remove</button>
+            `;
+        container.appendChild(pairDiv);
+    }
+
+    function removeFieldPair(button) {
+        const pairDiv = button.parentElement;
+        pairDiv.remove();
+    }
+
+    async function submitForm(event) {
+        event.preventDefault();
+
+        const pairs = [];
+        const fieldPairs = document.querySelectorAll(".field-pair");
+        fieldPairs.forEach(pair => {
+            const domainName = pair.querySelector("input[name='domainName']").value;
+            const adminEmail = pair.querySelector("input[name='adminEmail']").value;
+            pairs.push({ domainName, adminEmail });
+        });
+        var surveyUrl = document.getElementById('surveyUrl').value;
+
+        var data = {
+            surveyUrl: surveyUrl,
+            domains: pairs
+        };
+     
+        const response = await fetch('/create-survey', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+        
+       
+        if (response.ok) {
+            showAlert('Data submitted successfully', 'success');
+        } else {
+            showAlert('Error submitting data', 'error');
+        }
+
+        function showAlert(message, type) {
+            const alertContainer = document.createElement('div');
+            alertContainer.className = `alert ${type}`;
+            alertContainer.textContent = message;
+            document.body.appendChild(alertContainer);
+
+            setTimeout(() => {
+                alertContainer.remove();
+            }, 6000);
+        }
+    }
+    
+</script>
+}
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button[type="button"] {
+            background-color: #5bc0de;
+            color: white;
+            margin-right: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #5cb85c;
+            color: white;
+        }
+
+        button[type="button"]:hover,
+        button[type="submit"]:hover {
+            opacity: 0.8;
+        }
+
+        #fieldsContainer {
+            margin-top: 20px;
+        }
+
+        .field-pair {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .field-pair input[type="text"] {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .field-pair button {
+            background-color: #d9534f;
+            color: white;
+        }
+
+        .field-pair button:hover {
+            opacity: 0.8;
+        }
+
+        .alert {
+            position: relative;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            font-size: 16px;
+            z-index: 1000;
+        }
+
+        .alert.success {
+            color: #3c763d;
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+        }
+
+        .alert.error {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+        }
+    </style>
